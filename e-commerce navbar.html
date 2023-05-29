@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            background-color:limegreen;
+            border: 2px solid ;
+        }
+        .conteiner{
+            /* width: 1400px; */
+            margin: 0 auto;
+            /* border: solid 2px; */
+       }
+       .logo{
+            display: flex;
+            justify-content: space-between;
+       }
+       .icon{
+            display: inline-block;
+            padding-left: 5px;
+            justify-content: space-between;
+       }
+       div{
+            text-align: right;
+            font-size: 40px;
+       }
+       nav{
+        display: flex;
+        /* padding: 20px; */
+        justify-content: space-between;
+        /* line-height: 80px; */
+        align-items: center;
+       }
+       i{
+        font-size: 20px;
+        padding-right: 5px;
+       }
+       ul li{
+        display: inline-block;
+        margin: 0 20;
+       }
+       a{
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        /* border: 1px solid; */
+        }
+       a:hover{
+            color: yellow;
+            border: none;
+            border-radius: 30%;
+       }
+    </style>
+</head>
+<body>
+    <section>
+        <header>
+                <div class="conteiner">
+                    <nav>
+                        <div class="logo">
+                            <img src="../img/Screenshot (8).png" alt="">
+                        </div>
+                        <div class="icon">
+                            <i class="fa-regular fa-moon"></i>
+                        </div>
+                        
+                    </nav>
+
+                </div>
+        </header>
+        <div> 
+            <ul>
+                <li><a href="#">Website</a></li>
+                <li><a href="#">Mobiles</a></li>
+                <li><a href="#">UI Kits</a></li>
+                <li><a href="#">Wireframe</a></li>
+                <li><a href="#">Device Mockups</a></li>
+                <li><a href="#">Social media</a></li>
+                <li><a href="#">Tutorials</a></li>
+                <li><a href="#">More</a><i class="fa-solid fa-caret-down"></i></li>
+                <li><a href="#">Adobe XD</a></li>
+                <li><a href="#">PSD</a></li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
