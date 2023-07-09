@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner {
+    width: 1100px;
+    margin: 0 auto;
+}
+section{
+    margin: 0 10px;
+}
+.jcs {
+    justify-content: space-between;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-25 {
+    width: 25%;
+    font-family: 'Montserrat', sans-serif;
+    /* opacity: 0.7; */
+    /* line-height: 25px; */
+}
+/* .cart {
+    margin: 20px;
+    text-align:center;
+    padding-bottom: 90px;
+} */
+/* ----------------------------------------------------sec-one-start--------------------------------------------- */
+.one-bg {
+    background-color: #00000025;
+}
+.sec-one {
+    background-image: url(../img/sec-one-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    align-items: center;
+    color: aliceblue;
+    padding-bottom: 20px 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.link ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    align-items: center;
+    padding-top: 40px;
+}
+.link ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 20px;
+    font-family: "Poppins";
+}
+.logo img {
+    /* width: 100%; */
+    padding-left: 40px ;
+    margin: 0 auto;
+    align-items: left;
+    /* display: block; */
+}
+.sec-one-text {
+    padding: 100px;
+}
+.sec-one-h4{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.sec-one-h1 {
+    font-size: 40px;
+    color: #ffffff;
+    /* padding: 50px 0 38px 0; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sec-one-p p {
+    width: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 0 0 40px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.sec-one-button button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color:#ffffff;
+    /* border-radius: 20px; */
+    /* margin-bottom: 90px; */
+    /* margin: 0 auto; */
+    border: none;
+    /* align-items: center; */
+}
+.sec-one-button{
+    text-align: center;
+    /* background-color:#ffffff ; */
+    /* display: block;
+    margin: 0 auto; */
+}
+
+/* ------------------------------------------------sec-two-start------------------------------------------- */
+  
+.sec-two {
+    background-color:#ffffff9a;
+    /* overflow: hidden; */
+}
+/* .cart-img { */
+    /* border-radius: 50%; */
+    /* width: 50%; */
+    /* align-items: center; */
+    /* padding: 0 40px 0 40px; */
+/* } */
+/* .sec-two-cart{
+    align-items: center;
+} */
